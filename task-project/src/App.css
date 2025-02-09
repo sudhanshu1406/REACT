@@ -1,0 +1,554 @@
+#navbar{
+  display: flex;
+  background-color: black;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  position: sticky;
+  top: 0px;
+  z-index: 30;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  overflow-x: hidden;
+}
+#navbar article{
+  display: flex;
+}
+#navbar article div a{
+  margin: 15px;
+  text-decoration: none;
+  color: white;
+}
+#navbar .ar2{
+  font-size: 17px;
+}
+#navbar .ar2 div a i{
+  font-size: 10px;
+}
+#navbar .ar3{
+  opacity: 0.8;
+  padding-left: 250px;
+  font-size: 13px;
+}
+#navbar .icon{
+  font-size: 25px;
+}
+
+/* ===================================== hero ====================================== */
+#hero{
+  background-color: black;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  overflow-x: hidden;
+}
+#hero .heading{
+  font-size: 65px;
+  color: white;
+  margin-left: 220px;
+  padding-top: 30px;
+}
+#hero .ar{
+  background-image: url("./imageAI.png");
+  background-repeat: no-repeat;
+  width: 1050px;
+  height: 470px;
+  margin-left: 200px;
+  box-shadow: 0px 0px 1000px black inset;
+  border-radius: 10px;
+  /* padding-bottom: 50px; */
+}
+#hero .ar .in{
+  background-color: black;
+  opacity: 0;
+}
+#hero .ar .in:hover{
+  background-color: black;
+  opacity: 0.8;
+  transition: all 0.8s;
+}
+#hero .ar .in .p{
+  color: white;
+  font-size: 25px;
+  padding-left: 30px;
+  padding-top: 70px;
+  padding-bottom: 60px;
+}
+#hero .ar .in .btn a{
+  text-decoration: none;
+  font-size: 20px;
+  padding: 15px;
+  background-color: blue;
+  border-radius: 30px;
+  color: white;
+}
+#hero .ar .in .btn{
+  padding-left: 30px;
+  padding-bottom: 290px;
+  opacity: 10;
+}
+/* =================================== first section ================================== */
+
+#first{
+  background-color: black;
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 80px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  overflow-x: hidden;
+}
+#first article{
+  display: flex;
+  overflow: hidden;
+}
+.firsth1{
+  color: white;
+  font-size: 30px;
+  padding: 30px 0px 40px 90px;
+  background-color: black;
+}
+#first .ar1{
+  height: 500px;
+  width: 420px;
+  margin-left: 70px;
+}
+#first .ar2{
+  height: 500px;
+  width: 420px;
+}
+#first .ar3{
+  height: 500px;
+  width: 420px;
+  margin-right: 70px;
+}
+#first .p1{
+  text-shadow: 10px 5px 10px black;
+}
+#first .p2{
+  text-shadow: 10px 10px 10px black;
+}
+#first .p3{
+  text-shadow: 10px 10px 10px black;
+}
+#first .div1 img{
+  height: 500px;
+  width: 420px;
+}
+#first .div2 img{
+  height: 500px;
+  width: 420px;
+}
+#first .div3 img{
+  height: 500px;
+  width: 420px;
+}
+
+#first img:hover{
+  height: 600px;
+  width: 500px;
+  transition: all 1.5s;
+  box-shadow: inset 0px 0px 500px black;
+}
+#first .p1{
+  color: white;
+  position: absolute;
+  font-size: 40px;
+  margin-top: -50px;
+  margin-left: 20px;
+}
+#first .p2{
+  color: white;
+  position: absolute;
+  font-size: 40px;
+  margin-top: -50px;
+  margin-left: 20px;
+}
+#first .p3{
+  color: white;
+  position: absolute;
+  font-size: 40px;
+  margin-top: -50px;
+  margin-left: 20px;
+}
+/* =================================== third section ================================== */
+
+#third{
+  background-color: rgb(37, 35, 35);
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  overflow-x: hidden;
+}
+#third .th1{
+  color: white;
+  font-size: 17px;
+  margin-left: 70px;
+  padding-top: 90px;
+}
+#third .th2{
+  color: white;
+  font-size: 40px;
+  margin-left: 50px;
+  margin-top: 40px;
+}
+#third #image{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+
+#third #image .ar1{
+  background-image: url("./robot.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 300px;
+  width: 300px;
+  margin-top: 100px;
+  margin-left: 90px;
+  border-radius: 5px;
+}
+
+#third #image .ar1:hover{
+  margin-top: 65px;
+  transition: all 1s;
+  box-shadow: inset 0px 0px 500px black;
+}
+#third #image .ar2{
+  background-image: url("./robot2.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 300px;
+  width: 300px;
+  margin-top: 100px;
+  border-radius: 5px;
+}
+#third #image .ar2:hover{
+  margin-top: 65px;
+  transition: all 1s;
+  box-shadow: inset 0px 0px 500px black;
+}
+#third #image .ar3{
+  background-image: url("./robot3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 300px;
+  width: 300px;
+  margin-top: 100px;
+  border-radius: 5px;
+}
+#third #image .ar3:hover{
+  margin-top: 65px;
+  transition: all 1s;
+  box-shadow: inset 0px 0px 500px black;
+}
+#third #image .ar4{
+  background-image: url("./robot4.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 300px;
+  width: 300px;
+  margin-top: 100px;
+  margin-right: 50px;
+  border-radius: 5px;
+}
+#third #image .ar4:hover{
+  margin-top: 65px;
+  transition: all 1s;
+  box-shadow: inset 0px 0px 500px black
+}
+
+#third .h3{
+  color: white;
+  font-size: 25px;
+  font-weight: 400px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+#third .h4{
+  color: white;
+  font-size: 25px;
+  font-weight: 400px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+#third .h5{
+  color: white;
+  font-size: 25px;
+  font-weight: 400px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+#third .h6{
+  color: white;
+  font-size: 25px;
+  font-weight: 400px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+#third .btn a{
+  border: 2px solid white;
+  padding: 18px;
+  margin-left: 660px;
+  margin-top: 50px;
+  border-radius: 30px;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+#third .btn a:hover{
+  color: black;
+  background-color: white;
+  border: 2px solid black;
+
+}
+#third .btn{
+  margin-top: 100px;
+  padding-bottom: 100px;
+}
+#third .btn a i{
+  margin: 5px;
+}
+/* =================================== forth section ================================== */
+#forth{
+  overflow-x: hidden;
+}
+#forth .fh1{
+  font-size: 20px;
+  margin-left: 60px;
+  padding-top: 90px;
+}
+#forth .fh2{
+  font-size: 44px;
+  margin-left: 55px;
+  margin-top: 0px;
+
+}
+#forth .mainar{
+  display: flex;
+  margin-top: 30px;
+}
+#forth article div a{
+  text-decoration: none;
+  color: black;
+}
+#forth article div{
+  margin: 50px;
+  border-bottom: 1px solid blue;
+}
+#forth article div:hover{
+  border-bottom: 3px solid blue;
+}
+#forth .ar2{
+  padding-right: 80px;
+}
+#forth .ar1 .h1,.ar1 .h2,.ar1 .h3{
+  font-size: 25px;
+}
+#forth .ar1 .div1 i{
+  margin-left: 150px;
+}
+#forth .ar1 .div2 i{
+  margin-left: 80px;
+}
+#forth .ar1 .div3 i{
+  margin-left: 245px;
+}
+#forth .ar1 p{
+  margin-top: 10px;
+  padding-bottom: 50px;
+}
+#forth .ar2 .h1,.ar2 .h2,.ar2 .h3{
+  font-size: 25px;
+}
+#forth .ar2 .div1 i{
+  margin-left: 50px;
+}
+#forth .ar2 .div2 i{
+  margin-left: 145px;
+}
+#forth .ar2 .div3 i{
+  margin-left: 155px;
+}
+#forth .ar2 p{
+  margin-top: 10px;
+  padding-bottom: 50px;
+}
+/* =================================== forth section ================================== */
+#fifth{
+  background-color: black;
+  color: white;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  overflow-x: hidden;
+}
+#fifth .h1{
+  font-size: 55px;
+  margin-left: 600px;
+  padding-top: 120px;
+}
+#fifth .h2{
+  font-size: 20px;
+  margin-left: 665px;
+  padding-top: 20px;
+  opacity: 0.8;
+}
+#fifth .btn a{
+  border: 2px solid white;
+  text-decoration: none;
+  padding: 11px 30px 11px 30px;
+  border-radius: 50px;
+  color: white;
+  font-size: 20px;
+}
+#fifth .btn{
+  margin-bottom: 50px;
+  margin-top: 50px;
+  margin-left: 640px;
+}
+#fifth .line{
+  padding-bottom: 50px;
+  padding-top: 80px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+#fifth .h3{
+  font-size: 18px;
+  margin-left: 100px;
+}
+#fifth .h4{
+  font-size: 35px;
+  margin-left: 100px;
+}
+#fifth .ar1{
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 20px;
+  margin-right: 150px;
+  margin-top: 50px;
+}
+#fifth .ar1 div  a i{
+  font-size: 35px;
+  margin-top: 3px;
+}
+#fifth .ar1 div a{
+  margin: 20px;
+  text-decoration: none;
+  color: white;
+}
+#fifth .ar1 div{
+  display: flex;
+}
+#fifth .line1{
+  padding-bottom: 50px;
+  padding-top: 80px;
+}
+/* ==================================== footer================================ */
+#footer{
+  background-color: black;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  overflow-x: hidden;
+}
+#footer .in{
+  display: flex;
+  margin-left: 30px;
+  padding-bottom: 50px;
+}
+#footer .in article div{
+  color: white;
+}
+#footer .in article div a{
+  text-decoration: none;
+  color: white;
+  margin: 30px;
+}
+#footer .in .h{
+  font-size: 23px;
+  margin-left: 48px;
+}
+#footer .in article div{
+  margin: 20px;
+  opacity: 0.8;
+}
+#footer .in article div a:hover{
+  border-bottom: 1px solid white;
+}
+/* =====================================footer2===================================== */
+#footer2{
+  background-color: black;
+  padding: 20px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  overflow-x: hidden;
+}
+#footer2 .ar{
+  display: flex;
+  justify-content: space-between;
+}
+#footer2 .ar div{
+  display: flex;
+}
+#footer2 .ar .ar3{
+  display: flex;
+  margin-left: 50px;
+  margin-top: 10px;
+}
+#footer2 .ar .ar4{
+  display: flex;
+  margin-right: 40px;
+  margin-top: 25px;
+}
+#footer2 .ar div a{
+  text-decoration: none;
+  color: white;
+}
+#footer2 .ar .ar2 .head{
+  color: white;
+  margin-left: 15px;
+}
+#footer2 .ar .ar1{
+  margin-left: 10px;
+}
+#footer2 .ar .ar2{
+  margin-left: 20px;
+  margin-top: -5px;
+}
+#footer2 .ar .ar2 div{
+  margin: 7px;
+  font-size: 13px;
+}
+#footer2 .ar .ar3 div a{
+  margin: 20px;
+  font-size: 18px;
+}
+#footer2 .ar .ar4 div{
+  color: white;
+  border: 1px solid white;
+}
+#footer2 .ar .ar4 .btn1{
+  margin-bottom: 50px;
+  padding: 5px 25px 5px 25px ;
+  border-radius: 20px 0px 0px 20px;
+}
+#footer2 .ar .ar4 .btn1:hover{
+  background-color: white;
+  color: black;
+  border-radius: 20px;
+  transition: all 0.4s;
+}
+#footer2 .ar .ar4 .btn2{
+  margin-bottom: 50px;
+  padding: 5px 25px 5px 25px ;
+  border-radius: 0px 20px 20px 0px;
+}
+#footer2 .ar .ar4 .btn2:hover{
+  background-color: white;
+  color: black;
+  border-radius: 20px;
+  transition: all 0.4s;
+}
